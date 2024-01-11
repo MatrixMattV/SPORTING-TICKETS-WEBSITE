@@ -1,0 +1,87 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    background: url("pexels-unknown-user-1657338.jpg");
+    background-position: center;
+    background-size: cover;
+}
+
+header {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 28px 100px;
+    background: black;
+}
+
+h2 {
+    user-select: none;
+    color: beige;
+    font-size: 26px;
+    font-weight: 700;
+}
+
+nav a {
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 600;
+    padding: 8px 16px;
+    margin-left: 20px;
+    color: beige;
+}
+
+nav a:hover {
+    text-decoration: underline;
+    color: cadetblue;
+}
+
+.content {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    padding: 0 20px;
+}
+
+.main-content {
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+    color: navy;
+}
+
+.main-content h1 {
+    font-size: 3rem;
+    max-width: 500px;
+}
+
+.main-content p {
+    margin-top: 20px;
+    font-size: 20px;
+    font-weight: 600;
+    max-width: 500px;
+}
+
+.main-content button {
+    margin-top: 20px;
+    border: none;
+    outline: none;
+    font-size: 20px;
+    background: red;
+    color: ghostwhite;
+    font-weight: 600;
+    padding: 12px 30px;
+    border-radius: 6px;
+    transition: .3s;
+    cursor: pointer;
+}
+
+.main-content button:hover {
+    color: red;
+    background: ghostwhite;
+}
